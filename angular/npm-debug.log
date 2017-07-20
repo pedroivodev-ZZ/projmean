@@ -1,0 +1,816 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Users\\Suporte\\Documents\\node-v6.9.5-win-x64\\node.exe',
+1 verbose cli   'C:\\Users\\Suporte\\Documents\\node-v6.9.5-win-x64\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'admin-lte',
+1 verbose cli   'angular',
+1 verbose cli   'angular-animate',
+1 verbose cli   'angular-toastr',
+1 verbose cli   'angular-ui-router',
+1 verbose cli   'font-awesome',
+1 verbose cli   'babel-preset-es2015',
+1 verbose cli   'gulp',
+1 verbose cli   'gulp-babel',
+1 verbose cli   'gulp-concat',
+1 verbose cli   'gulp-htmlmin',
+1 verbose cli   'gulp-uglify',
+1 verbose cli   'gulp-uglifycss',
+1 verbose cli   'gulp-util',
+1 verbose cli   'gulp-watch',
+1 verbose cli   'gulp-webserver',
+1 verbose cli   '--save-dev' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData admin-lte
+8 silly fetchPackageMetaData angular
+9 silly fetchPackageMetaData angular-animate
+10 silly fetchPackageMetaData angular-toastr
+11 silly fetchPackageMetaData angular-ui-router
+12 silly fetchPackageMetaData font-awesome
+13 silly fetchPackageMetaData babel-preset-es2015
+14 silly fetchPackageMetaData gulp
+15 silly fetchPackageMetaData gulp-babel
+16 silly fetchPackageMetaData gulp-concat
+17 silly fetchPackageMetaData gulp-htmlmin
+18 silly fetchPackageMetaData gulp-uglify
+19 silly fetchPackageMetaData gulp-uglifycss
+20 silly fetchPackageMetaData gulp-util
+21 silly fetchPackageMetaData gulp-watch
+22 silly fetchPackageMetaData gulp-webserver
+23 silly fetchNamedPackageData admin-lte
+24 silly mapToRegistry name admin-lte
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry data Result {
+27 silly mapToRegistry   raw: 'admin-lte',
+27 silly mapToRegistry   scope: null,
+27 silly mapToRegistry   escapedName: 'admin-lte',
+27 silly mapToRegistry   name: 'admin-lte',
+27 silly mapToRegistry   rawSpec: '',
+27 silly mapToRegistry   spec: 'latest',
+27 silly mapToRegistry   type: 'tag' }
+28 silly mapToRegistry uri https://registry.npmjs.org/admin-lte
+29 silly fetchNamedPackageData angular
+30 silly mapToRegistry name angular
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry data Result {
+33 silly mapToRegistry   raw: 'angular',
+33 silly mapToRegistry   scope: null,
+33 silly mapToRegistry   escapedName: 'angular',
+33 silly mapToRegistry   name: 'angular',
+33 silly mapToRegistry   rawSpec: '',
+33 silly mapToRegistry   spec: 'latest',
+33 silly mapToRegistry   type: 'tag' }
+34 silly mapToRegistry uri https://registry.npmjs.org/angular
+35 silly fetchNamedPackageData angular-animate
+36 silly mapToRegistry name angular-animate
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry data Result {
+39 silly mapToRegistry   raw: 'angular-animate',
+39 silly mapToRegistry   scope: null,
+39 silly mapToRegistry   escapedName: 'angular-animate',
+39 silly mapToRegistry   name: 'angular-animate',
+39 silly mapToRegistry   rawSpec: '',
+39 silly mapToRegistry   spec: 'latest',
+39 silly mapToRegistry   type: 'tag' }
+40 silly mapToRegistry uri https://registry.npmjs.org/angular-animate
+41 silly fetchNamedPackageData angular-toastr
+42 silly mapToRegistry name angular-toastr
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry data Result {
+45 silly mapToRegistry   raw: 'angular-toastr',
+45 silly mapToRegistry   scope: null,
+45 silly mapToRegistry   escapedName: 'angular-toastr',
+45 silly mapToRegistry   name: 'angular-toastr',
+45 silly mapToRegistry   rawSpec: '',
+45 silly mapToRegistry   spec: 'latest',
+45 silly mapToRegistry   type: 'tag' }
+46 silly mapToRegistry uri https://registry.npmjs.org/angular-toastr
+47 silly fetchNamedPackageData angular-ui-router
+48 silly mapToRegistry name angular-ui-router
+49 silly mapToRegistry using default registry
+50 silly mapToRegistry registry https://registry.npmjs.org/
+51 silly mapToRegistry data Result {
+51 silly mapToRegistry   raw: 'angular-ui-router',
+51 silly mapToRegistry   scope: null,
+51 silly mapToRegistry   escapedName: 'angular-ui-router',
+51 silly mapToRegistry   name: 'angular-ui-router',
+51 silly mapToRegistry   rawSpec: '',
+51 silly mapToRegistry   spec: 'latest',
+51 silly mapToRegistry   type: 'tag' }
+52 silly mapToRegistry uri https://registry.npmjs.org/angular-ui-router
+53 silly fetchNamedPackageData font-awesome
+54 silly mapToRegistry name font-awesome
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: 'font-awesome',
+57 silly mapToRegistry   scope: null,
+57 silly mapToRegistry   escapedName: 'font-awesome',
+57 silly mapToRegistry   name: 'font-awesome',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri https://registry.npmjs.org/font-awesome
+59 silly fetchNamedPackageData babel-preset-es2015
+60 silly mapToRegistry name babel-preset-es2015
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry data Result {
+63 silly mapToRegistry   raw: 'babel-preset-es2015',
+63 silly mapToRegistry   scope: null,
+63 silly mapToRegistry   escapedName: 'babel-preset-es2015',
+63 silly mapToRegistry   name: 'babel-preset-es2015',
+63 silly mapToRegistry   rawSpec: '',
+63 silly mapToRegistry   spec: 'latest',
+63 silly mapToRegistry   type: 'tag' }
+64 silly mapToRegistry uri https://registry.npmjs.org/babel-preset-es2015
+65 silly fetchNamedPackageData gulp
+66 silly mapToRegistry name gulp
+67 silly mapToRegistry using default registry
+68 silly mapToRegistry registry https://registry.npmjs.org/
+69 silly mapToRegistry data Result {
+69 silly mapToRegistry   raw: 'gulp',
+69 silly mapToRegistry   scope: null,
+69 silly mapToRegistry   escapedName: 'gulp',
+69 silly mapToRegistry   name: 'gulp',
+69 silly mapToRegistry   rawSpec: '',
+69 silly mapToRegistry   spec: 'latest',
+69 silly mapToRegistry   type: 'tag' }
+70 silly mapToRegistry uri https://registry.npmjs.org/gulp
+71 silly fetchNamedPackageData gulp-babel
+72 silly mapToRegistry name gulp-babel
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry data Result {
+75 silly mapToRegistry   raw: 'gulp-babel',
+75 silly mapToRegistry   scope: null,
+75 silly mapToRegistry   escapedName: 'gulp-babel',
+75 silly mapToRegistry   name: 'gulp-babel',
+75 silly mapToRegistry   rawSpec: '',
+75 silly mapToRegistry   spec: 'latest',
+75 silly mapToRegistry   type: 'tag' }
+76 silly mapToRegistry uri https://registry.npmjs.org/gulp-babel
+77 silly fetchNamedPackageData gulp-concat
+78 silly mapToRegistry name gulp-concat
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry data Result {
+81 silly mapToRegistry   raw: 'gulp-concat',
+81 silly mapToRegistry   scope: null,
+81 silly mapToRegistry   escapedName: 'gulp-concat',
+81 silly mapToRegistry   name: 'gulp-concat',
+81 silly mapToRegistry   rawSpec: '',
+81 silly mapToRegistry   spec: 'latest',
+81 silly mapToRegistry   type: 'tag' }
+82 silly mapToRegistry uri https://registry.npmjs.org/gulp-concat
+83 silly fetchNamedPackageData gulp-htmlmin
+84 silly mapToRegistry name gulp-htmlmin
+85 silly mapToRegistry using default registry
+86 silly mapToRegistry registry https://registry.npmjs.org/
+87 silly mapToRegistry data Result {
+87 silly mapToRegistry   raw: 'gulp-htmlmin',
+87 silly mapToRegistry   scope: null,
+87 silly mapToRegistry   escapedName: 'gulp-htmlmin',
+87 silly mapToRegistry   name: 'gulp-htmlmin',
+87 silly mapToRegistry   rawSpec: '',
+87 silly mapToRegistry   spec: 'latest',
+87 silly mapToRegistry   type: 'tag' }
+88 silly mapToRegistry uri https://registry.npmjs.org/gulp-htmlmin
+89 silly fetchNamedPackageData gulp-uglify
+90 silly mapToRegistry name gulp-uglify
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry https://registry.npmjs.org/
+93 silly mapToRegistry data Result {
+93 silly mapToRegistry   raw: 'gulp-uglify',
+93 silly mapToRegistry   scope: null,
+93 silly mapToRegistry   escapedName: 'gulp-uglify',
+93 silly mapToRegistry   name: 'gulp-uglify',
+93 silly mapToRegistry   rawSpec: '',
+93 silly mapToRegistry   spec: 'latest',
+93 silly mapToRegistry   type: 'tag' }
+94 silly mapToRegistry uri https://registry.npmjs.org/gulp-uglify
+95 silly fetchNamedPackageData gulp-uglifycss
+96 silly mapToRegistry name gulp-uglifycss
+97 silly mapToRegistry using default registry
+98 silly mapToRegistry registry https://registry.npmjs.org/
+99 silly mapToRegistry data Result {
+99 silly mapToRegistry   raw: 'gulp-uglifycss',
+99 silly mapToRegistry   scope: null,
+99 silly mapToRegistry   escapedName: 'gulp-uglifycss',
+99 silly mapToRegistry   name: 'gulp-uglifycss',
+99 silly mapToRegistry   rawSpec: '',
+99 silly mapToRegistry   spec: 'latest',
+99 silly mapToRegistry   type: 'tag' }
+100 silly mapToRegistry uri https://registry.npmjs.org/gulp-uglifycss
+101 silly fetchNamedPackageData gulp-util
+102 silly mapToRegistry name gulp-util
+103 silly mapToRegistry using default registry
+104 silly mapToRegistry registry https://registry.npmjs.org/
+105 silly mapToRegistry data Result {
+105 silly mapToRegistry   raw: 'gulp-util',
+105 silly mapToRegistry   scope: null,
+105 silly mapToRegistry   escapedName: 'gulp-util',
+105 silly mapToRegistry   name: 'gulp-util',
+105 silly mapToRegistry   rawSpec: '',
+105 silly mapToRegistry   spec: 'latest',
+105 silly mapToRegistry   type: 'tag' }
+106 silly mapToRegistry uri https://registry.npmjs.org/gulp-util
+107 silly fetchNamedPackageData gulp-watch
+108 silly mapToRegistry name gulp-watch
+109 silly mapToRegistry using default registry
+110 silly mapToRegistry registry https://registry.npmjs.org/
+111 silly mapToRegistry data Result {
+111 silly mapToRegistry   raw: 'gulp-watch',
+111 silly mapToRegistry   scope: null,
+111 silly mapToRegistry   escapedName: 'gulp-watch',
+111 silly mapToRegistry   name: 'gulp-watch',
+111 silly mapToRegistry   rawSpec: '',
+111 silly mapToRegistry   spec: 'latest',
+111 silly mapToRegistry   type: 'tag' }
+112 silly mapToRegistry uri https://registry.npmjs.org/gulp-watch
+113 silly fetchNamedPackageData gulp-webserver
+114 silly mapToRegistry name gulp-webserver
+115 silly mapToRegistry using default registry
+116 silly mapToRegistry registry https://registry.npmjs.org/
+117 silly mapToRegistry data Result {
+117 silly mapToRegistry   raw: 'gulp-webserver',
+117 silly mapToRegistry   scope: null,
+117 silly mapToRegistry   escapedName: 'gulp-webserver',
+117 silly mapToRegistry   name: 'gulp-webserver',
+117 silly mapToRegistry   rawSpec: '',
+117 silly mapToRegistry   spec: 'latest',
+117 silly mapToRegistry   type: 'tag' }
+118 silly mapToRegistry uri https://registry.npmjs.org/gulp-webserver
+119 verbose request uri https://registry.npmjs.org/admin-lte
+120 verbose request no auth needed
+121 info attempt registry request try #1 at 12:02:34
+122 verbose request id 82d1bd4fef98dda6
+123 verbose etag W/"58d21ac4-5827"
+124 verbose lastModified Wed, 22 Mar 2017 06:33:40 GMT
+125 http request GET https://registry.npmjs.org/admin-lte
+126 verbose request uri https://registry.npmjs.org/angular
+127 verbose request no auth needed
+128 info attempt registry request try #1 at 12:02:35
+129 verbose etag W/"5963f9c5-2502b"
+130 verbose lastModified Mon, 10 Jul 2017 22:03:49 GMT
+131 http request GET https://registry.npmjs.org/angular
+132 verbose request uri https://registry.npmjs.org/angular-toastr
+133 verbose request no auth needed
+134 info attempt registry request try #1 at 12:02:35
+135 verbose etag W/"57ba2ac1-8633"
+136 verbose lastModified Sun, 21 Aug 2016 22:27:13 GMT
+137 http request GET https://registry.npmjs.org/angular-toastr
+138 verbose request uri https://registry.npmjs.org/angular-animate
+139 verbose request no auth needed
+140 info attempt registry request try #1 at 12:02:35
+141 verbose etag W/"595aa078-1b288"
+142 verbose lastModified Mon, 03 Jul 2017 19:52:24 GMT
+143 http request GET https://registry.npmjs.org/angular-animate
+144 verbose request uri https://registry.npmjs.org/babel-preset-es2015
+145 verbose request no auth needed
+146 info attempt registry request try #1 at 12:02:35
+147 verbose etag W/"594fcb0d-14928"
+148 verbose lastModified Sun, 25 Jun 2017 14:39:09 GMT
+149 http request GET https://registry.npmjs.org/babel-preset-es2015
+150 verbose request uri https://registry.npmjs.org/angular-ui-router
+151 verbose request no auth needed
+152 info attempt registry request try #1 at 12:02:35
+153 verbose etag W/"59518dc6-10021"
+154 verbose lastModified Mon, 26 Jun 2017 22:42:14 GMT
+155 http request GET https://registry.npmjs.org/angular-ui-router
+156 verbose request uri https://registry.npmjs.org/font-awesome
+157 verbose request no auth needed
+158 info attempt registry request try #1 at 12:02:35
+159 verbose etag W/"59612687-569a"
+160 verbose lastModified Sat, 08 Jul 2017 18:37:59 GMT
+161 http request GET https://registry.npmjs.org/font-awesome
+162 verbose request uri https://registry.npmjs.org/gulp-babel
+163 verbose request no auth needed
+164 info attempt registry request try #1 at 12:02:35
+165 verbose etag W/"595f3763-5779"
+166 verbose lastModified Fri, 07 Jul 2017 07:25:23 GMT
+167 http request GET https://registry.npmjs.org/gulp-babel
+168 verbose request uri https://registry.npmjs.org/gulp-concat
+169 verbose request no auth needed
+170 info attempt registry request try #1 at 12:02:35
+171 verbose etag W/"595f3a5f-a40a"
+172 verbose lastModified Fri, 07 Jul 2017 07:38:07 GMT
+173 http request GET https://registry.npmjs.org/gulp-concat
+174 verbose request uri https://registry.npmjs.org/gulp-htmlmin
+175 verbose request no auth needed
+176 info attempt registry request try #1 at 12:02:35
+177 verbose etag W/"595d9bd5-69df"
+178 verbose lastModified Thu, 06 Jul 2017 02:09:25 GMT
+179 http request GET https://registry.npmjs.org/gulp-htmlmin
+180 verbose request uri https://registry.npmjs.org/gulp-uglifycss
+181 verbose request no auth needed
+182 info attempt registry request try #1 at 12:02:35
+183 verbose etag W/"592096a9-2c12"
+184 verbose lastModified Sat, 20 May 2017 19:19:05 GMT
+185 http request GET https://registry.npmjs.org/gulp-uglifycss
+186 verbose request uri https://registry.npmjs.org/gulp
+187 verbose request no auth needed
+188 info attempt registry request try #1 at 12:02:35
+189 verbose etag W/"59644ca7-1d5e6"
+190 verbose lastModified Tue, 11 Jul 2017 03:57:27 GMT
+191 http request GET https://registry.npmjs.org/gulp
+192 verbose request uri https://registry.npmjs.org/gulp-uglify
+193 verbose request no auth needed
+194 info attempt registry request try #1 at 12:02:35
+195 verbose etag W/"595f39df-e20c"
+196 verbose lastModified Fri, 07 Jul 2017 07:35:59 GMT
+197 http request GET https://registry.npmjs.org/gulp-uglify
+198 verbose request uri https://registry.npmjs.org/gulp-util
+199 verbose request no auth needed
+200 info attempt registry request try #1 at 12:02:35
+201 verbose etag W/"595db4fc-fe48"
+202 verbose lastModified Thu, 06 Jul 2017 03:56:44 GMT
+203 http request GET https://registry.npmjs.org/gulp-util
+204 verbose request uri https://registry.npmjs.org/gulp-watch
+205 verbose request no auth needed
+206 info attempt registry request try #1 at 12:02:35
+207 verbose etag W/"595c7eee-1fce5"
+208 verbose lastModified Wed, 05 Jul 2017 05:53:50 GMT
+209 http request GET https://registry.npmjs.org/gulp-watch
+210 verbose request uri https://registry.npmjs.org/gulp-webserver
+211 verbose request no auth needed
+212 info attempt registry request try #1 at 12:02:35
+213 verbose etag W/"5950360c-9bd1"
+214 verbose lastModified Sun, 25 Jun 2017 22:15:40 GMT
+215 http request GET https://registry.npmjs.org/gulp-webserver
+216 http 304 https://registry.npmjs.org/admin-lte
+217 verbose headers { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+217 verbose headers   via: '1.1 varnish',
+217 verbose headers   'cache-control': 'max-age=300',
+217 verbose headers   etag: 'W/"58d21ac4-5827"',
+217 verbose headers   age: '293',
+217 verbose headers   connection: 'keep-alive',
+217 verbose headers   'x-served-by': 'cache-gru7126-GRU',
+217 verbose headers   'x-cache': 'HIT',
+217 verbose headers   'x-cache-hits': '3',
+217 verbose headers   'x-timer': 'S1499785357.928826,VS0,VE0',
+217 verbose headers   vary: 'Accept-Encoding, Accept' }
+218 silly get cb [ 304,
+218 silly get   { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+218 silly get     via: '1.1 varnish',
+218 silly get     'cache-control': 'max-age=300',
+218 silly get     etag: 'W/"58d21ac4-5827"',
+218 silly get     age: '293',
+218 silly get     connection: 'keep-alive',
+218 silly get     'x-served-by': 'cache-gru7126-GRU',
+218 silly get     'x-cache': 'HIT',
+218 silly get     'x-cache-hits': '3',
+218 silly get     'x-timer': 'S1499785357.928826,VS0,VE0',
+218 silly get     vary: 'Accept-Encoding, Accept' } ]
+219 verbose etag https://registry.npmjs.org/admin-lte from cache
+220 verbose get saving admin-lte to C:\Users\Suporte\AppData\Roaming\npm-cache\registry.npmjs.org\admin-lte\.cache.json
+221 verbose correctMkdir C:\Users\Suporte\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+222 http 304 https://registry.npmjs.org/angular
+223 verbose headers { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+223 verbose headers   via: '1.1 varnish',
+223 verbose headers   'cache-control': 'max-age=300',
+223 verbose headers   etag: 'W/"5963f9c5-2502b"',
+223 verbose headers   age: '291',
+223 verbose headers   connection: 'keep-alive',
+223 verbose headers   'x-served-by': 'cache-gru7123-GRU',
+223 verbose headers   'x-cache': 'HIT',
+223 verbose headers   'x-cache-hits': '3',
+223 verbose headers   'x-timer': 'S1499785357.930129,VS0,VE0',
+223 verbose headers   vary: 'Accept-Encoding, Accept' }
+224 silly get cb [ 304,
+224 silly get   { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+224 silly get     via: '1.1 varnish',
+224 silly get     'cache-control': 'max-age=300',
+224 silly get     etag: 'W/"5963f9c5-2502b"',
+224 silly get     age: '291',
+224 silly get     connection: 'keep-alive',
+224 silly get     'x-served-by': 'cache-gru7123-GRU',
+224 silly get     'x-cache': 'HIT',
+224 silly get     'x-cache-hits': '3',
+224 silly get     'x-timer': 'S1499785357.930129,VS0,VE0',
+224 silly get     vary: 'Accept-Encoding, Accept' } ]
+225 verbose etag https://registry.npmjs.org/angular from cache
+226 verbose get saving angular to C:\Users\Suporte\AppData\Roaming\npm-cache\registry.npmjs.org\angular\.cache.json
+227 verbose correctMkdir C:\Users\Suporte\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+228 http 304 https://registry.npmjs.org/babel-preset-es2015
+229 verbose headers { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+229 verbose headers   via: '1.1 varnish',
+229 verbose headers   'cache-control': 'max-age=300',
+229 verbose headers   etag: 'W/"594fcb0d-14928"',
+229 verbose headers   age: '137',
+229 verbose headers   connection: 'keep-alive',
+229 verbose headers   'x-served-by': 'cache-gru7127-GRU',
+229 verbose headers   'x-cache': 'HIT',
+229 verbose headers   'x-cache-hits': '1',
+229 verbose headers   'x-timer': 'S1499785357.927332,VS0,VE0',
+229 verbose headers   vary: 'Accept-Encoding, Accept' }
+230 silly get cb [ 304,
+230 silly get   { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+230 silly get     via: '1.1 varnish',
+230 silly get     'cache-control': 'max-age=300',
+230 silly get     etag: 'W/"594fcb0d-14928"',
+230 silly get     age: '137',
+230 silly get     connection: 'keep-alive',
+230 silly get     'x-served-by': 'cache-gru7127-GRU',
+230 silly get     'x-cache': 'HIT',
+230 silly get     'x-cache-hits': '1',
+230 silly get     'x-timer': 'S1499785357.927332,VS0,VE0',
+230 silly get     vary: 'Accept-Encoding, Accept' } ]
+231 verbose etag https://registry.npmjs.org/babel-preset-es2015 from cache
+232 verbose get saving babel-preset-es2015 to C:\Users\Suporte\AppData\Roaming\npm-cache\registry.npmjs.org\babel-preset-es2015\.cache.json
+233 verbose correctMkdir C:\Users\Suporte\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+234 http 304 https://registry.npmjs.org/angular-animate
+235 verbose headers { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+235 verbose headers   via: '1.1 varnish',
+235 verbose headers   'cache-control': 'max-age=300',
+235 verbose headers   etag: 'W/"595aa078-1b288"',
+235 verbose headers   age: '136',
+235 verbose headers   connection: 'keep-alive',
+235 verbose headers   'x-served-by': 'cache-gru7124-GRU',
+235 verbose headers   'x-cache': 'HIT',
+235 verbose headers   'x-cache-hits': '1',
+235 verbose headers   'x-timer': 'S1499785357.929585,VS0,VE1',
+235 verbose headers   vary: 'Accept-Encoding, Accept' }
+236 silly get cb [ 304,
+236 silly get   { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+236 silly get     via: '1.1 varnish',
+236 silly get     'cache-control': 'max-age=300',
+236 silly get     etag: 'W/"595aa078-1b288"',
+236 silly get     age: '136',
+236 silly get     connection: 'keep-alive',
+236 silly get     'x-served-by': 'cache-gru7124-GRU',
+236 silly get     'x-cache': 'HIT',
+236 silly get     'x-cache-hits': '1',
+236 silly get     'x-timer': 'S1499785357.929585,VS0,VE1',
+236 silly get     vary: 'Accept-Encoding, Accept' } ]
+237 verbose etag https://registry.npmjs.org/angular-animate from cache
+238 verbose get saving angular-animate to C:\Users\Suporte\AppData\Roaming\npm-cache\registry.npmjs.org\angular-animate\.cache.json
+239 verbose correctMkdir C:\Users\Suporte\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+240 http 304 https://registry.npmjs.org/angular-toastr
+241 verbose headers { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+241 verbose headers   via: '1.1 varnish',
+241 verbose headers   'cache-control': 'max-age=300',
+241 verbose headers   etag: 'W/"57ba2ac1-8633"',
+241 verbose headers   age: '294',
+241 verbose headers   connection: 'keep-alive',
+241 verbose headers   'x-served-by': 'cache-gru7124-GRU',
+241 verbose headers   'x-cache': 'HIT',
+241 verbose headers   'x-cache-hits': '3',
+241 verbose headers   'x-timer': 'S1499785357.929888,VS0,VE0',
+241 verbose headers   vary: 'Accept-Encoding, Accept' }
+242 silly get cb [ 304,
+242 silly get   { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+242 silly get     via: '1.1 varnish',
+242 silly get     'cache-control': 'max-age=300',
+242 silly get     etag: 'W/"57ba2ac1-8633"',
+242 silly get     age: '294',
+242 silly get     connection: 'keep-alive',
+242 silly get     'x-served-by': 'cache-gru7124-GRU',
+242 silly get     'x-cache': 'HIT',
+242 silly get     'x-cache-hits': '3',
+242 silly get     'x-timer': 'S1499785357.929888,VS0,VE0',
+242 silly get     vary: 'Accept-Encoding, Accept' } ]
+243 verbose etag https://registry.npmjs.org/angular-toastr from cache
+244 verbose get saving angular-toastr to C:\Users\Suporte\AppData\Roaming\npm-cache\registry.npmjs.org\angular-toastr\.cache.json
+245 verbose correctMkdir C:\Users\Suporte\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+246 http 304 https://registry.npmjs.org/gulp-babel
+247 verbose headers { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+247 verbose headers   via: '1.1 varnish',
+247 verbose headers   'cache-control': 'max-age=300',
+247 verbose headers   etag: 'W/"595f3763-5779"',
+247 verbose headers   age: '294',
+247 verbose headers   connection: 'keep-alive',
+247 verbose headers   'x-served-by': 'cache-gru7125-GRU',
+247 verbose headers   'x-cache': 'HIT',
+247 verbose headers   'x-cache-hits': '1',
+247 verbose headers   'x-timer': 'S1499785357.930944,VS0,VE0',
+247 verbose headers   vary: 'Accept-Encoding, Accept' }
+248 silly get cb [ 304,
+248 silly get   { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+248 silly get     via: '1.1 varnish',
+248 silly get     'cache-control': 'max-age=300',
+248 silly get     etag: 'W/"595f3763-5779"',
+248 silly get     age: '294',
+248 silly get     connection: 'keep-alive',
+248 silly get     'x-served-by': 'cache-gru7125-GRU',
+248 silly get     'x-cache': 'HIT',
+248 silly get     'x-cache-hits': '1',
+248 silly get     'x-timer': 'S1499785357.930944,VS0,VE0',
+248 silly get     vary: 'Accept-Encoding, Accept' } ]
+249 verbose etag https://registry.npmjs.org/gulp-babel from cache
+250 verbose get saving gulp-babel to C:\Users\Suporte\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-babel\.cache.json
+251 verbose correctMkdir C:\Users\Suporte\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+252 http 304 https://registry.npmjs.org/angular-ui-router
+253 verbose headers { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+253 verbose headers   via: '1.1 varnish',
+253 verbose headers   'cache-control': 'max-age=300',
+253 verbose headers   etag: 'W/"59518dc6-10021"',
+253 verbose headers   age: '294',
+253 verbose headers   connection: 'keep-alive',
+253 verbose headers   'x-served-by': 'cache-gru7125-GRU',
+253 verbose headers   'x-cache': 'HIT',
+253 verbose headers   'x-cache-hits': '2',
+253 verbose headers   'x-timer': 'S1499785357.930870,VS0,VE0',
+253 verbose headers   vary: 'Accept-Encoding, Accept' }
+254 silly get cb [ 304,
+254 silly get   { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+254 silly get     via: '1.1 varnish',
+254 silly get     'cache-control': 'max-age=300',
+254 silly get     etag: 'W/"59518dc6-10021"',
+254 silly get     age: '294',
+254 silly get     connection: 'keep-alive',
+254 silly get     'x-served-by': 'cache-gru7125-GRU',
+254 silly get     'x-cache': 'HIT',
+254 silly get     'x-cache-hits': '2',
+254 silly get     'x-timer': 'S1499785357.930870,VS0,VE0',
+254 silly get     vary: 'Accept-Encoding, Accept' } ]
+255 verbose etag https://registry.npmjs.org/angular-ui-router from cache
+256 verbose get saving angular-ui-router to C:\Users\Suporte\AppData\Roaming\npm-cache\registry.npmjs.org\angular-ui-router\.cache.json
+257 verbose correctMkdir C:\Users\Suporte\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+258 http 304 https://registry.npmjs.org/gulp-htmlmin
+259 verbose headers { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+259 verbose headers   via: '1.1 varnish',
+259 verbose headers   'cache-control': 'max-age=300',
+259 verbose headers   etag: 'W/"595d9bd5-69df"',
+259 verbose headers   age: '294',
+259 verbose headers   connection: 'keep-alive',
+259 verbose headers   'x-served-by': 'cache-gru7120-GRU',
+259 verbose headers   'x-cache': 'HIT',
+259 verbose headers   'x-cache-hits': '2',
+259 verbose headers   'x-timer': 'S1499785357.928387,VS0,VE0',
+259 verbose headers   vary: 'Accept-Encoding, Accept' }
+260 silly get cb [ 304,
+260 silly get   { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+260 silly get     via: '1.1 varnish',
+260 silly get     'cache-control': 'max-age=300',
+260 silly get     etag: 'W/"595d9bd5-69df"',
+260 silly get     age: '294',
+260 silly get     connection: 'keep-alive',
+260 silly get     'x-served-by': 'cache-gru7120-GRU',
+260 silly get     'x-cache': 'HIT',
+260 silly get     'x-cache-hits': '2',
+260 silly get     'x-timer': 'S1499785357.928387,VS0,VE0',
+260 silly get     vary: 'Accept-Encoding, Accept' } ]
+261 verbose etag https://registry.npmjs.org/gulp-htmlmin from cache
+262 verbose get saving gulp-htmlmin to C:\Users\Suporte\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-htmlmin\.cache.json
+263 verbose correctMkdir C:\Users\Suporte\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+264 http 304 https://registry.npmjs.org/gulp-concat
+265 verbose headers { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+265 verbose headers   via: '1.1 varnish',
+265 verbose headers   'cache-control': 'max-age=300',
+265 verbose headers   etag: 'W/"595f3a5f-a40a"',
+265 verbose headers   age: '34',
+265 verbose headers   connection: 'keep-alive',
+265 verbose headers   'x-served-by': 'cache-gru7122-GRU',
+265 verbose headers   'x-cache': 'HIT',
+265 verbose headers   'x-cache-hits': '1',
+265 verbose headers   'x-timer': 'S1499785357.928478,VS0,VE0',
+265 verbose headers   vary: 'Accept-Encoding, Accept' }
+266 silly get cb [ 304,
+266 silly get   { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+266 silly get     via: '1.1 varnish',
+266 silly get     'cache-control': 'max-age=300',
+266 silly get     etag: 'W/"595f3a5f-a40a"',
+266 silly get     age: '34',
+266 silly get     connection: 'keep-alive',
+266 silly get     'x-served-by': 'cache-gru7122-GRU',
+266 silly get     'x-cache': 'HIT',
+266 silly get     'x-cache-hits': '1',
+266 silly get     'x-timer': 'S1499785357.928478,VS0,VE0',
+266 silly get     vary: 'Accept-Encoding, Accept' } ]
+267 verbose etag https://registry.npmjs.org/gulp-concat from cache
+268 verbose get saving gulp-concat to C:\Users\Suporte\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-concat\.cache.json
+269 verbose correctMkdir C:\Users\Suporte\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+270 http 304 https://registry.npmjs.org/font-awesome
+271 verbose headers { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+271 verbose headers   via: '1.1 varnish',
+271 verbose headers   'cache-control': 'max-age=300',
+271 verbose headers   etag: 'W/"59612687-569a"',
+271 verbose headers   age: '230',
+271 verbose headers   connection: 'keep-alive',
+271 verbose headers   'x-served-by': 'cache-gru7127-GRU',
+271 verbose headers   'x-cache': 'HIT',
+271 verbose headers   'x-cache-hits': '2',
+271 verbose headers   'x-timer': 'S1499785357.928826,VS0,VE0',
+271 verbose headers   vary: 'Accept-Encoding, Accept' }
+272 silly get cb [ 304,
+272 silly get   { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+272 silly get     via: '1.1 varnish',
+272 silly get     'cache-control': 'max-age=300',
+272 silly get     etag: 'W/"59612687-569a"',
+272 silly get     age: '230',
+272 silly get     connection: 'keep-alive',
+272 silly get     'x-served-by': 'cache-gru7127-GRU',
+272 silly get     'x-cache': 'HIT',
+272 silly get     'x-cache-hits': '2',
+272 silly get     'x-timer': 'S1499785357.928826,VS0,VE0',
+272 silly get     vary: 'Accept-Encoding, Accept' } ]
+273 verbose etag https://registry.npmjs.org/font-awesome from cache
+274 verbose get saving font-awesome to C:\Users\Suporte\AppData\Roaming\npm-cache\registry.npmjs.org\font-awesome\.cache.json
+275 verbose correctMkdir C:\Users\Suporte\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+276 http 304 https://registry.npmjs.org/gulp-uglifycss
+277 verbose headers { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+277 verbose headers   via: '1.1 varnish',
+277 verbose headers   'cache-control': 'max-age=300',
+277 verbose headers   etag: 'W/"592096a9-2c12"',
+277 verbose headers   age: '293',
+277 verbose headers   connection: 'keep-alive',
+277 verbose headers   'x-served-by': 'cache-gru7127-GRU',
+277 verbose headers   'x-cache': 'HIT',
+277 verbose headers   'x-cache-hits': '1',
+277 verbose headers   'x-timer': 'S1499785357.930592,VS0,VE0',
+277 verbose headers   vary: 'Accept-Encoding, Accept' }
+278 silly get cb [ 304,
+278 silly get   { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+278 silly get     via: '1.1 varnish',
+278 silly get     'cache-control': 'max-age=300',
+278 silly get     etag: 'W/"592096a9-2c12"',
+278 silly get     age: '293',
+278 silly get     connection: 'keep-alive',
+278 silly get     'x-served-by': 'cache-gru7127-GRU',
+278 silly get     'x-cache': 'HIT',
+278 silly get     'x-cache-hits': '1',
+278 silly get     'x-timer': 'S1499785357.930592,VS0,VE0',
+278 silly get     vary: 'Accept-Encoding, Accept' } ]
+279 verbose etag https://registry.npmjs.org/gulp-uglifycss from cache
+280 verbose get saving gulp-uglifycss to C:\Users\Suporte\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-uglifycss\.cache.json
+281 verbose correctMkdir C:\Users\Suporte\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+282 http 304 https://registry.npmjs.org/gulp
+283 verbose headers { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+283 verbose headers   via: '1.1 varnish',
+283 verbose headers   'cache-control': 'max-age=300',
+283 verbose headers   etag: 'W/"59644ca7-1d5e6"',
+283 verbose headers   age: '258',
+283 verbose headers   connection: 'keep-alive',
+283 verbose headers   'x-served-by': 'cache-gru7127-GRU',
+283 verbose headers   'x-cache': 'HIT',
+283 verbose headers   'x-cache-hits': '2',
+283 verbose headers   'x-timer': 'S1499785357.930725,VS0,VE0',
+283 verbose headers   vary: 'Accept-Encoding, Accept' }
+284 silly get cb [ 304,
+284 silly get   { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+284 silly get     via: '1.1 varnish',
+284 silly get     'cache-control': 'max-age=300',
+284 silly get     etag: 'W/"59644ca7-1d5e6"',
+284 silly get     age: '258',
+284 silly get     connection: 'keep-alive',
+284 silly get     'x-served-by': 'cache-gru7127-GRU',
+284 silly get     'x-cache': 'HIT',
+284 silly get     'x-cache-hits': '2',
+284 silly get     'x-timer': 'S1499785357.930725,VS0,VE0',
+284 silly get     vary: 'Accept-Encoding, Accept' } ]
+285 verbose etag https://registry.npmjs.org/gulp from cache
+286 verbose get saving gulp to C:\Users\Suporte\AppData\Roaming\npm-cache\registry.npmjs.org\gulp\.cache.json
+287 verbose correctMkdir C:\Users\Suporte\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+288 http 304 https://registry.npmjs.org/gulp-uglify
+289 verbose headers { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+289 verbose headers   via: '1.1 varnish',
+289 verbose headers   'cache-control': 'max-age=300',
+289 verbose headers   etag: 'W/"595f39df-e20c"',
+289 verbose headers   age: '241',
+289 verbose headers   connection: 'keep-alive',
+289 verbose headers   'x-served-by': 'cache-gru7121-GRU',
+289 verbose headers   'x-cache': 'HIT',
+289 verbose headers   'x-cache-hits': '29',
+289 verbose headers   'x-timer': 'S1499785357.934955,VS0,VE0',
+289 verbose headers   vary: 'Accept-Encoding, Accept' }
+290 silly get cb [ 304,
+290 silly get   { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+290 silly get     via: '1.1 varnish',
+290 silly get     'cache-control': 'max-age=300',
+290 silly get     etag: 'W/"595f39df-e20c"',
+290 silly get     age: '241',
+290 silly get     connection: 'keep-alive',
+290 silly get     'x-served-by': 'cache-gru7121-GRU',
+290 silly get     'x-cache': 'HIT',
+290 silly get     'x-cache-hits': '29',
+290 silly get     'x-timer': 'S1499785357.934955,VS0,VE0',
+290 silly get     vary: 'Accept-Encoding, Accept' } ]
+291 verbose etag https://registry.npmjs.org/gulp-uglify from cache
+292 verbose get saving gulp-uglify to C:\Users\Suporte\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-uglify\.cache.json
+293 verbose correctMkdir C:\Users\Suporte\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+294 http 304 https://registry.npmjs.org/gulp-webserver
+295 verbose headers { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+295 verbose headers   via: '1.1 varnish',
+295 verbose headers   'cache-control': 'max-age=300',
+295 verbose headers   etag: 'W/"5950360c-9bd1"',
+295 verbose headers   age: '294',
+295 verbose headers   connection: 'keep-alive',
+295 verbose headers   'x-served-by': 'cache-gru7124-GRU',
+295 verbose headers   'x-cache': 'HIT',
+295 verbose headers   'x-cache-hits': '1',
+295 verbose headers   'x-timer': 'S1499785357.938987,VS0,VE1',
+295 verbose headers   vary: 'Accept-Encoding, Accept' }
+296 silly get cb [ 304,
+296 silly get   { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+296 silly get     via: '1.1 varnish',
+296 silly get     'cache-control': 'max-age=300',
+296 silly get     etag: 'W/"5950360c-9bd1"',
+296 silly get     age: '294',
+296 silly get     connection: 'keep-alive',
+296 silly get     'x-served-by': 'cache-gru7124-GRU',
+296 silly get     'x-cache': 'HIT',
+296 silly get     'x-cache-hits': '1',
+296 silly get     'x-timer': 'S1499785357.938987,VS0,VE1',
+296 silly get     vary: 'Accept-Encoding, Accept' } ]
+297 verbose etag https://registry.npmjs.org/gulp-webserver from cache
+298 verbose get saving gulp-webserver to C:\Users\Suporte\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-webserver\.cache.json
+299 verbose correctMkdir C:\Users\Suporte\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+300 http 304 https://registry.npmjs.org/gulp-util
+301 verbose headers { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+301 verbose headers   via: '1.1 varnish',
+301 verbose headers   'cache-control': 'max-age=300',
+301 verbose headers   etag: 'W/"595db4fc-fe48"',
+301 verbose headers   age: '296',
+301 verbose headers   connection: 'keep-alive',
+301 verbose headers   'x-served-by': 'cache-gru7121-GRU',
+301 verbose headers   'x-cache': 'HIT',
+301 verbose headers   'x-cache-hits': '9',
+301 verbose headers   'x-timer': 'S1499785357.936210,VS0,VE0',
+301 verbose headers   vary: 'Accept-Encoding, Accept' }
+302 silly get cb [ 304,
+302 silly get   { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+302 silly get     via: '1.1 varnish',
+302 silly get     'cache-control': 'max-age=300',
+302 silly get     etag: 'W/"595db4fc-fe48"',
+302 silly get     age: '296',
+302 silly get     connection: 'keep-alive',
+302 silly get     'x-served-by': 'cache-gru7121-GRU',
+302 silly get     'x-cache': 'HIT',
+302 silly get     'x-cache-hits': '9',
+302 silly get     'x-timer': 'S1499785357.936210,VS0,VE0',
+302 silly get     vary: 'Accept-Encoding, Accept' } ]
+303 verbose etag https://registry.npmjs.org/gulp-util from cache
+304 verbose get saving gulp-util to C:\Users\Suporte\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-util\.cache.json
+305 verbose correctMkdir C:\Users\Suporte\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+306 http 304 https://registry.npmjs.org/gulp-watch
+307 verbose headers { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+307 verbose headers   via: '1.1 varnish',
+307 verbose headers   'cache-control': 'max-age=300',
+307 verbose headers   etag: 'W/"595c7eee-1fce5"',
+307 verbose headers   age: '293',
+307 verbose headers   connection: 'keep-alive',
+307 verbose headers   'x-served-by': 'cache-gru7123-GRU',
+307 verbose headers   'x-cache': 'HIT',
+307 verbose headers   'x-cache-hits': '2',
+307 verbose headers   'x-timer': 'S1499785357.968195,VS0,VE0',
+307 verbose headers   vary: 'Accept-Encoding, Accept' }
+308 silly get cb [ 304,
+308 silly get   { date: 'Tue, 11 Jul 2017 15:02:36 GMT',
+308 silly get     via: '1.1 varnish',
+308 silly get     'cache-control': 'max-age=300',
+308 silly get     etag: 'W/"595c7eee-1fce5"',
+308 silly get     age: '293',
+308 silly get     connection: 'keep-alive',
+308 silly get     'x-served-by': 'cache-gru7123-GRU',
+308 silly get     'x-cache': 'HIT',
+308 silly get     'x-cache-hits': '2',
+308 silly get     'x-timer': 'S1499785357.968195,VS0,VE0',
+308 silly get     vary: 'Accept-Encoding, Accept' } ]
+309 verbose etag https://registry.npmjs.org/gulp-watch from cache
+310 verbose get saving gulp-watch to C:\Users\Suporte\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-watch\.cache.json
+311 verbose correctMkdir C:\Users\Suporte\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+312 silly install normalizeTree
+313 silly loadCurrentTree Finishing
+314 silly loadIdealTree Starting
+315 silly install loadIdealTree
+316 silly cloneCurrentTree Starting
+317 silly install cloneCurrentTreeToIdealTree
+318 silly cloneCurrentTree Finishing
+319 silly loadShrinkwrap Starting
+320 silly install loadShrinkwrap
+321 silly loadShrinkwrap Finishing
+322 silly loadAllDepsIntoIdealTree Starting
+323 silly install loadAllDepsIntoIdealTree
+324 silly rollbackFailedOptional Starting
+325 silly rollbackFailedOptional Finishing
+326 silly runTopLevelLifecycles Finishing
+327 silly install printInstalled
+328 verbose stack Error: Refusing to install angular as a dependency of itself
+328 verbose stack     at checkSelf (C:\Users\Suporte\Documents\node-v6.9.5-win-x64\node_modules\npm\lib\install\validate-args.js:53:14)
+328 verbose stack     at Array.<anonymous> (C:\Users\Suporte\Documents\node-v6.9.5-win-x64\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+328 verbose stack     at LOOP (C:\Users\Suporte\Documents\node-v6.9.5-win-x64\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+328 verbose stack     at chain (C:\Users\Suporte\Documents\node-v6.9.5-win-x64\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+328 verbose stack     at C:\Users\Suporte\Documents\node-v6.9.5-win-x64\node_modules\npm\lib\install\validate-args.js:16:5
+328 verbose stack     at C:\Users\Suporte\Documents\node-v6.9.5-win-x64\node_modules\npm\node_modules\slide\lib\async-map.js:52:35
+328 verbose stack     at Array.forEach (native)
+328 verbose stack     at C:\Users\Suporte\Documents\node-v6.9.5-win-x64\node_modules\npm\node_modules\slide\lib\async-map.js:52:11
+328 verbose stack     at Array.forEach (native)
+328 verbose stack     at asyncMap (C:\Users\Suporte\Documents\node-v6.9.5-win-x64\node_modules\npm\node_modules\slide\lib\async-map.js:51:8)
+329 verbose cwd C:\Users\Suporte\Documents\GitHub\projmean\angular
+330 error Windows_NT 6.1.7601
+331 error argv "C:\\Users\\Suporte\\Documents\\node-v6.9.5-win-x64\\node.exe" "C:\\Users\\Suporte\\Documents\\node-v6.9.5-win-x64\\node_modules\\npm\\bin\\npm-cli.js" "install" "admin-lte" "angular" "angular-animate" "angular-toastr" "angular-ui-router" "font-awesome" "babel-preset-es2015" "gulp" "gulp-babel" "gulp-concat" "gulp-htmlmin" "gulp-uglify" "gulp-uglifycss" "gulp-util" "gulp-watch" "gulp-webserver" "--save-dev"
+332 error node v6.9.5
+333 error npm  v3.10.10
+334 error code ENOSELF
+335 error Refusing to install angular as a dependency of itself
+336 error If you need help, you may report this error at:
+336 error     <https://github.com/npm/npm/issues>
+337 verbose exit [ 1, true ]

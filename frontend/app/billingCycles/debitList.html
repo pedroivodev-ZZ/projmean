@@ -1,0 +1,40 @@
+<div class="col-xs-12">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Valor</th>
+        <th>Status</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="debit in bCyclesCtrl.billingCycle.debits">
+        <td>
+          <input ng-model="debit.name" class="form-control"
+          placeholder="Informe o nome" ng-readonly="bCyclesCtrl.tabDelete" />
+        </td>
+        <td>
+          <input ng-model="debit.value" class="form-control"
+          placeholder="Informe o valor" ng-readonly="bCyclesCtrl.tabDelete"
+          type="number" />
+        </td>
+        <td>
+          <input ng-model="debit.satus" class="form-control"
+          placeholder="Informe o status" ng-readonly="bCyclesCtrl.tabDelete" />
+        </td>
+        <td class="table-actions">
+          <button class="btn btn-success" ng-class="{disabled: bCyclesCtrl.tabDelete}">
+            <i class="fa fa-plus"></i>
+          </button>
+          <button class="btn btn-warning" ng-class="{disabled: bCyclesCtrl.tabDelete}">
+            <i class="fa fa-clone"></i>
+          </button>
+          <button class="btn btn-danger" ng-class="{disabled: bCyclesCtrl.tabDelete}">
+            <i class="fa fa-trash-o"></i>
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

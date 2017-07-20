@@ -14,8 +14,10 @@ function sendErrorsOrNext(req, res, next) {
   const bundle = res.locals.bundle
   if (bundle.errors) {
     var errors = parseErrors(bundle.errors)
+    console.log(JSON.stringify(bundle.errors))
     res.status(500).json({ errors })
   } else {
+    console.log('segue o baile')
     next()
   }
 }
