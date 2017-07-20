@@ -17,20 +17,23 @@
         <td>
           <input ng-model="debit.value" class="form-control"
           placeholder="Informe o valor" ng-readonly="bCyclesCtrl.tabDelete"
-          type="number" />
+          type="number" ng-change="bCyclesCtrl.calculateValues()" />
         </td>
         <td>
-          <input ng-model="debit.satus" class="form-control"
+          <input ng-model="debit.status" class="form-control"
           placeholder="Informe o status" ng-readonly="bCyclesCtrl.tabDelete" />
         </td>
         <td class="table-actions">
-          <button class="btn btn-success" ng-class="{disabled: bCyclesCtrl.tabDelete}">
+          <button class="btn btn-success" ng-disabled="bCyclesCtrl.tabDelete"
+          ng-click="bCyclesCtrl.addDebit($index)">
             <i class="fa fa-plus"></i>
           </button>
-          <button class="btn btn-warning" ng-class="{disabled: bCyclesCtrl.tabDelete}">
+          <button class="btn btn-warning" ng-disabled="bCyclesCtrl.tabDelete"
+          ng-click="bCyclesCtrl.cloneDebit($index, debit)">
             <i class="fa fa-clone"></i>
           </button>
-          <button class="btn btn-danger" ng-class="{disabled: bCyclesCtrl.tabDelete}">
+          <button class="btn btn-danger" ng-disabled="bCyclesCtrl.tabDelete"
+          ng-click="bCyclesCtrl.deleteDebit($index)">
             <i class="fa fa-trash-o"></i>
           </button>
         </td>
