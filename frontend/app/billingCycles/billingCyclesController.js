@@ -115,10 +115,6 @@
       vm.total = vm.credit - vm.debit
     }
 
-    vm.teuCu = function () {
-      console.log('AAAAAAAAAA')
-    }
-
     vm.refresh()
   }
 })()

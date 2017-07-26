@@ -2,8 +2,7 @@
   angular.module('primeiraApp').component('paginator', {
     bindings: {
       url: '@',
-      pages: '@',
-      model: '='
+      pages: '@'
     },
     controller: [
       '$location',
@@ -24,7 +23,6 @@
       }
     ],
     template:`
-    <button ng-click="$ctrl.model">TEU CU</button>
     <ul ng-if="$ctrl.needPagination" class="pagination">
       <li ng-disabled="$ctrl.disablePrev" ng-class="{disabled : $ctrl.disablePrev}">
         <a href="{{ $ctrl.url }}?page={{ $ctrl.current - 1 }}">Anterior</a>
