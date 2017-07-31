@@ -37,6 +37,15 @@
 
     vm.showTabUpdate = function (billingCycle) {
       vm.billingCycle = billingCycle
+
+      if (vm.billingCycle.credits == 0) {
+        vm.billingCycle.credits = [{}]
+      }
+
+      if (vm.billingCycle.debits.length == 0) {
+        vm.billingCycle.debits = [{}]
+      }
+
       vm.calculateValues()
       tabs.show(vm, { tabUpdate: true })
     }

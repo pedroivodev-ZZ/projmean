@@ -23,7 +23,7 @@
       }
     ],
     template:`
-    <ul ng-if="$ctrl.needPagination" class="pagination">
+    <ul ng-if="$ctrl.needPagination" class="pagination pagination-sm no-margin">
       <li ng-disabled="$ctrl.disablePrev" ng-class="{disabled : $ctrl.disablePrev}">
         <a href="{{ $ctrl.url }}?page={{ $ctrl.current - 1 }}">Anterior</a>
       </li>

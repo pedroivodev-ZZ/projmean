@@ -1,4 +1,9 @@
 html { background-color: #ecf0f5; }
+#toast-container { top: 70px; }
+.font-30 { font-size: 30px !important;}
 .main-footer { position: fixed;bottom: 0px;width: 100%; }
 .table-actions {width: 140px;}
-#toast-container { top: 70px; }
+.small-box .icon.adjust-top { top: -20px; }
+.small-box .icon.adjust-top i.fa.fa-bank { font-size: smaller; }
+.small-box .icon.adjust-top i.fa.fa-money { margin-top: 27px; }
+.small-box .icon.adjust-top i.fa.fa-bank { font-size: smaller; }
